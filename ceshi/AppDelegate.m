@@ -23,7 +23,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
-    //导航问
     return YES;
 }
 
