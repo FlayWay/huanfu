@@ -23,6 +23,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[ViewController new]];
+    //添加忽略文件
     return YES;
 }
 
