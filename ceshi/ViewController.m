@@ -19,6 +19,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    
+    
     SonModel *son = [[SonModel alloc]init];
     NSString *str = @"0.55";
     float a = [str floatValue];
